@@ -1,0 +1,14 @@
+{
+  "name": "projet-sport-root",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node start.js",
+    "start": "node start.js",
+    "start:server": "npm --prefix express run dev",
+    "start:client": "npm --prefix React run dev -- --host 0.0.0.0"
+  },
+  "dependencies": {
+    "framer-motion": "^12.42.2"
+  }
+}

@@ -1,0 +1,111 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  /* Raha mampîasa light dark de reto tsara ampiasaina */
+  /* background-color: #242424; */
+  
+  color: rgba(255, 255, 255, 0.87);
+  background-color:  #111827;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+} */
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  background-color:  #111827;
+  /* background-color: #242424; */
+  margin: 0;
+  /* display: flex;
+  place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h2{
+  text-transform: uppercase;
+  font-size: 34px;
+  /* color: white; */
+  font-weight: bold;
+}
+h3{
+  text-transform: uppercase;
+  font-size: 10px;
+  color: white;
+  font-weight: bold;
+}
+p{
+  font-size: medium;
+  color: white;
+}
+h3{
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button {
+  color: white;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.3em 1.0em;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: inherit;
+  outline-width: 2px;
+  outline-color: #ff5203;
+  outline-offset: 2px;
+  /* outline-style: double; */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+/* button:hover {
+  border-color: #646cff;
+} */
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.fond1{
+  border-radius: 32px;
+  background-image: url(/public/img/Fond1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* color: #213547; */
+    /* background-color: #ffffff; */
+    /* background-color:  #111827; */
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button.joindre {
+    background-color: #ff5203;
+    outline-style: double;
+  }
+
+}
